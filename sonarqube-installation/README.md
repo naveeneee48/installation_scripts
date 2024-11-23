@@ -1,11 +1,11 @@
-1. Steps to Trigger the Script via Webhook
-
+**1. Steps to Trigger the Script via Webhook
+**
 Replace /path/to/repo with the path to your local clone of the repository.
 Ensure the sonar-scanner command works properly on your server.
 chmod +x /path/to/sonar-scan.sh
 
-2. Configure Webhook in Gitea
-Log in to your Gitea web interface.
+**2. Configure Webhook in Gitea
+**Log in to your Gitea web interface.
 
 Add a Webhook:
 
