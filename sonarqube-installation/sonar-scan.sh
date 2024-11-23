@@ -1,5 +1,5 @@
 #!/bin/bash
-cd /path/to/repo
+cd /path/to/git_repo
 git pull
 sonar-scanner 
 
