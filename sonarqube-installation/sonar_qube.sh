@@ -70,7 +70,7 @@ echo "Cloning the Git repository..."
 #git clone git@10.4.0.1:Wellspring_Systems/cyberdata.git
 
 # Step 9: Configure the SonarQube project for the Git repository
-cd ~/gitea/cyberblitz-agent
+cd ~/gitea/<git_repo>
 
 echo "Creating sonar-project.properties..."
 cat <<EOL > sonar-project.properties
