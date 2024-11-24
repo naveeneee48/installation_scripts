@@ -3,12 +3,20 @@
 First, get the script and make it executable:
 
 ```bash
-wget https://raw.githubusercontent.com/naveeneee48/installation_scripts/main/openvpn-installation/openvpn-server-install.sh
+wget https://raw.githubusercontent.com/naveeneee48/installation_scripts/main/openvpn-installation/openvpn-server-install.sh &&
 chmod +x openvpn-server-install.sh
 ```
+```bash
+wget https://raw.githubusercontent.com/naveeneee48/installation_scripts/main/openvpn-installation/setup-opnvpn-client.sh &&
+chmod +x setup-opnvpn-client.sh
+```
+
 Then run it:
 ```sh
 ./openvpn-server-install.sh
+```
+```sh
+./setup-opnvpn-client.sh <client_machine_name> <client_tunnel_ip>
 ```
 You need to run the script as root
 
