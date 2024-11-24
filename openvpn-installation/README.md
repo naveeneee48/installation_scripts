@@ -1,3 +1,17 @@
+## Usage
+
+First, get the script and make it executable:
+
+```bash
+wget https://raw.githubusercontent.com/naveeneee48/installation_scripts/main/openvpn-installation/openvpn-server-install.sh
+chmod +x openvpn-server-install.sh
+```
+Then run it:
+```sh
+./openvpn-server-install.sh
+```
+You need to run the script as root
+
 ### 1. Files Required on the OpenVPN Server
 The OpenVPN server needs the following files in its configuration directory (typically /etc/openvpn/):
 
