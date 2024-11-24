@@ -1,3 +1,10 @@
+# OpenVPN-setup
+
+![Test](https://github.com/angristan/openvpn-install/workflows/Test/badge.svg)
+![Lint](https://github.com/angristan/openvpn-install/workflows/Lint/badge.svg)
+[![Say Thanks!](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/angristan)
+
+
 ## Usage
 
 First, get the script and make it executable:
