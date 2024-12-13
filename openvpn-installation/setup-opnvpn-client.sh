@@ -43,5 +43,5 @@ verb 3
 EOL
 sudo systemctl restart openvpn@server.service
 
-echo "$1 client.conf and  certificates are $1.crt , $!.key , ca.crt and ta.key there in $CWD dir and copy these 5 files and move it to openvpn client machine and save in /etc/openvpn"
+echo "$1 client.conf and  certificates are $1.crt , $1.key , ca.crt and ta.key there in $CWD dir and copy these 5 files and move it to openvpn client machine and save in /etc/openvpn"
 echo "run 'sudo openvpn --config client.conf'  in client's /etc/openvpn folder'"
