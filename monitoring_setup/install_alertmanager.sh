@@ -1,4 +1,4 @@
-#!/bmonitoring
+#!/bin/bash
 
 # Define variables
 ALERTMANAGER_VERSION="0.26.0"  # Change to the latest version if needed
