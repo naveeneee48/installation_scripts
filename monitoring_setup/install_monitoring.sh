@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y wget curl tar
 
 # Install Prometheus
-PROMETHEUS_VERSION="2.48.1"
+PROMETHEUS_VERSION="3.4.0"
 echo "Installing Prometheus..."
 wget https://github.com/prometheus/prometheus/releases/download/v${PROMETHEUS_VERSION}/prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
 tar -xvf prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
@@ -47,7 +47,7 @@ WantedBy=multi-user.target
 EOF
 
 # Install Grafana
-GRAFANA_VERSION="10.2.3"
+GRAFANA_VERSION="12.0.0"
 echo "Installing Grafana..."
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise-${GRAFANA_VERSION}.linux-amd64.tar.gz
 tar -xvf grafana-enterprise-${GRAFANA_VERSION}.linux-amd64.tar.gz
@@ -72,7 +72,7 @@ WantedBy=multi-user.target
 EOF
 
 # Install Node Exporter
-NODE_EXPORTER_VERSION="1.7.0"
+NODE_EXPORTER_VERSION="1.9.1"
 echo "Installing Node Exporter..."
 wget https://github.com/prometheus/node_exporter/releases/download/v${NODE_EXPORTER_VERSION}/node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64.tar.gz
 tar -xvf node_exporter-${NODE_EXPORTER_VERSION}.linux-amd64.tar.gz
