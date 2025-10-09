@@ -7,7 +7,7 @@ sudo apt update && sudo apt upgrade -y
 sudo apt install -y wget curl tar
 
 # Install Prometheus
-PROMETHEUS_VERSION="3.4.0"
+PROMETHEUS_VERSION="3.6.0"
 echo "Installing Prometheus..."
 wget https://github.com/prometheus/prometheus/releases/download/v${PROMETHEUS_VERSION}/prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
 tar -xvf prometheus-${PROMETHEUS_VERSION}.linux-amd64.tar.gz
@@ -47,7 +47,7 @@ WantedBy=multi-user.target
 EOF
 
 # Install Grafana
-GRAFANA_VERSION="12.0.0"
+GRAFANA_VERSION="12.2.0"
 echo "Installing Grafana..."
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise-${GRAFANA_VERSION}.linux-amd64.tar.gz
 tar -xvf grafana-enterprise-${GRAFANA_VERSION}.linux-amd64.tar.gz
