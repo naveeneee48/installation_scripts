@@ -51,7 +51,7 @@ GRAFANA_VERSION="12.2.0"
 echo "Installing Grafana..."
 wget https://dl.grafana.com/enterprise/release/grafana-enterprise-${GRAFANA_VERSION}.linux-amd64.tar.gz
 tar -xvf grafana-enterprise-${GRAFANA_VERSION}.linux-amd64.tar.gz
-sudo mv grafana-v${GRAFANA_VERSION} /usr/share/grafana
+sudo mv grafana-${GRAFANA_VERSION} /usr/share/grafana
 sudo ln -s /usr/share/grafana/bin/grafana-server /usr/local/bin/grafana-server
 sudo ln -s /usr/share/grafana/bin/grafana-cli /usr/local/bin/grafana-cli
 
