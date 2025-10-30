@@ -2,6 +2,8 @@
 
 set -e
 
+#This script sets up Prowler by installing necessary dependencies, the AWS CLI, and creating configuration files for scanning AWS accounts.
+
 # Update & install dependencies
 apt-get update -y
 apt-get upgrade -y
